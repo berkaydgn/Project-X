@@ -7103,6 +7103,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _bulletSpawnPoint: {fileID: 710606986}
   _bulletPrefab: {fileID: -5611149099131491127, guid: 9dca18bc1fee05d488922a753a58ca8d, type: 3}
+  _gunFireCD: 0.2
 --- !u!1 &1481284113
 GameObject:
   m_ObjectHideFlags: 3
@@ -7606,7 +7607,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac92c8116167b104b829fceb3bfadda9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _moveSpeed: 20
+  _moveSpeed: 12
   _jumpStrength: 10
 --- !u!1 &2043640393
 GameObject:
