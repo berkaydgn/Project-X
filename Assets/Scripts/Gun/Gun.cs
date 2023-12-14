@@ -35,7 +35,7 @@ public class Gun : MonoBehaviour
     private void Update()
     {
         Shoot();
-        RotateGun();
+       RotateGun();
     }
 
     private void OnEnable()
